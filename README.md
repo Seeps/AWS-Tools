@@ -10,6 +10,6 @@ This script utilizes the AWS-CLI to query for all EC2 instances and provides a l
 **NOTE**: This script requires [AWS-CLI](https://aws.amazon.com/cli/) and [jq](https://stedolan.github.io/jq/download/) to be installed and configured on your system.
 
 ## s3-listdb.sh
-This script utilizes the AWS-CLI to query an S3 bucket for all objects within the bucket. It then stores each record in one table within a SQLite database, along with the last modified time (utc), size (bytes), object name, object path. It also exports a csv of the database.
+This script utilizes the AWS-CLI to query an S3 bucket for all objects within the bucket. It then stores each record in one table within a SQLite database, along with the last modified time (UTC), size (Bytes), object name, object path. It also exports a CSV of the database.
 
 **NOTE**: This script requires [AWS-CLI](https://aws.amazon.com/cli/) and [sqlite3](https://www.sqlite.org/cli.html#getting_started) to be installed and configured on your system.
